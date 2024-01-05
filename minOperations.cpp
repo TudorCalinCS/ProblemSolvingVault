@@ -11,7 +11,7 @@ Choose two elements with equal values and delete them from the array.
 Choose three elements with equal values and delete them from the array.
 Return the minimum number of operations required to make the array empty, or -1 if it is not possible.
 
- 
+
 
 Example 1:
 
@@ -28,7 +28,7 @@ Example 2:
 Input: nums = [2,1,2,2,3,3]
 Output: -1
 Explanation: It is impossible to empty the array.
- 
+
 
 Constraints:
 

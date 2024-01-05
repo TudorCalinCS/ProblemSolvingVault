@@ -1,6 +1,5 @@
 using namespace std;
 
-
 /*
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
@@ -33,36 +32,39 @@ It is guaranteed that the list represents a number that does not have leading ze
 
 */
 
-struct ListNode {
+struct ListNode
+{
     int val;
-    ListNode* next;
+    ListNode *next;
     ListNode() : val(0), next(nullptr) {}
     ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode* next) : val(x), next(next) {}
-    
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
-class Solution {
+class Solution
+{
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* fake = new ListNode(0);
-        ListNode* result = fake;
+    ListNode *addTwoNumbers(ListNode *l1, ListNode *l2)
+    {
+        ListNode *fake = new ListNode(0);
+        ListNode *result = fake;
         int carry = 0;
-        while (l1 != nullptr || l2 != nullptr) {
+        while (l1 != nullptr || l2 != nullptr)
+        {
             int val = ((l1 != nullptr) ? l1->val : 0) + ((l2 != nullptr) ? l2->val : 0) + carry;
             carry = val / 10;
-            ListNode* newNode = new ListNode(val % 10);
+            ListNode *newNode = new ListNode(val % 10);
             result->next = newNode;
             result = result->next;
             l1 = (l1 != nullptr) ? l1->next : nullptr;
             l2 = (l2 != nullptr) ? l2->next : nullptr;
         }
-        if (carry != 0) {
-            ListNode* newNode = new ListNode(carry);
+        if (carry != 0)
+        {
+            ListNode *newNode = new ListNode(carry);
             result->next = newNode;
         }
-        ListNode* final = fake->next;
+        ListNode *final = fake->next;
         delete fake;
         return final;
-
     }
 };

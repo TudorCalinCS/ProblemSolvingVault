@@ -4,6 +4,7 @@
         "initializer_list": "cpp",
         "type_traits": "cpp",
         "xutility": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "utility": "cpp"
     }
 }

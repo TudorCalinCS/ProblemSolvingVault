@@ -1,7 +1,6 @@
 #include <vector>
 using namespace std;
 
-
 /*Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -30,18 +29,22 @@ Constraints:
 Only one valid answer exists.
 */
 
-class Solution {
+class Solution
+{
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int> &nums, int target)
+    {
         vector<int> result;
-        for (int i = 0; i < nums.size() - 1; i++) {
-            for (int j = 1; j < nums.size(); j++) {
-                if (i != j && nums.at(i) + nums.at(j) == target) {
+        for (int i = 0; i < nums.size() - 1; i++)
+        {
+            for (int j = 1; j < nums.size(); j++)
+            {
+                if (i != j && nums.at(i) + nums.at(j) == target)
+                {
                     result.push_back(i);
                     result.push_back(j);
                     return result;
                 }
-
             }
         }
         return result;

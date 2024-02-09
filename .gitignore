@@ -7,6 +7,8 @@
 *.vcxproj
 *.pdb
 *.vcxproj.filters
+*.json
+*.sln
 
 # User-specific files
 *.rsuser

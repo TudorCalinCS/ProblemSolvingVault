@@ -5,6 +5,8 @@
         "type_traits": "cpp",
         "xutility": "cpp",
         "xstring": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp"
     }
 }

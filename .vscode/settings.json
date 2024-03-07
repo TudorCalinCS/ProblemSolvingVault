@@ -11,6 +11,9 @@
         "string": "cpp",
         "unordered_map": "cpp",
         "xhash": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "hash_map": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
     }
 }

@@ -15,6 +15,7 @@
         "hash_map": "cpp",
         "queue": "cpp",
         "stack": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "iterator": "cpp"
     }
 }

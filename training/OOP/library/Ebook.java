@@ -1,4 +1,4 @@
-package training.OOP.inheritance;
+package training.OOP.library;
 
 // Inheritance: subclass inherits from superclass and extends it with additional attributes
 public class Ebook extends Book {

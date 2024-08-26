@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "training.OOP.payment.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.OOP.polymorphims.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "training.OOP.inheritance.Main",
             "projectName": "ProblemSolvingVault_310fd14b"
         },

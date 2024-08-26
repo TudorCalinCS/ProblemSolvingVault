@@ -1,4 +1,4 @@
-package training.OOP.inheritance;
+package training.OOP.library;
 
 // Superclass with basic attributes
 public class Book {

@@ -1,4 +1,4 @@
-package training.OOP.inheritance;
+package training.OOP.library;
 
 import java.util.ArrayList;
 import java.util.List;

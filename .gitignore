@@ -9,7 +9,8 @@
 *.json
 *.sln
 *.exe
-
+.jsbasics/
+jsbasics
 # User-specific files
 *.rsuser
 *.suo

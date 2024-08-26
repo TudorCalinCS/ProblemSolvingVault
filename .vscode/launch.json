@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "training.OOP.library.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "training.OOP.payment.Main",
             "projectName": "ProblemSolvingVault_310fd14b"
         },

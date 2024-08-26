@@ -13,7 +13,7 @@ public class Ebook extends Book {
         this.fileFormat = fileFormat;
     }
 
-    // Polymorphism in action, overriden method from superclass
+    // Polymorphism: override method from superclass
     @Override
     public void getBookInfo() {
         super.getBookInfo();

@@ -36,7 +36,9 @@ digits does not contain any leading 0's.
 
 */
 class Solution {
+
     public int[] plusOne(int[] digits) {
+        
         ArrayList<Integer> list = new ArrayList<>();
         int carry = 1;
         for (int i = digits.length - 1; i >= 0; i--) {

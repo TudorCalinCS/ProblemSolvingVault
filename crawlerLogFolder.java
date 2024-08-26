@@ -1,4 +1,4 @@
-"""
+/*
 The Leetcode file system keeps a log each time some user performs a change folder operation.
 
 The operations are described below:
@@ -11,16 +11,16 @@ You are given a list of strings logs where logs[i] is the operation performed by
 The file system starts in the main folder, then the operations in logs are performed.
 
 Return the minimum number of operations needed to go back to the main folder after the change folder operations.
-"""
+ */
 class Solution {
     public int minOperations(String[] logs) {
         int operations = 0;
 
-        for (String log: logs){
-            if (log.equals("../")){
+        for (String log : logs) {
+            if (log.equals("../")) {
                 if (operations > 0)
-                    operations = operations - 1;}
-            else if (!log.equals("./"))
+                    operations = operations - 1;
+            } else if (!log.equals("./"))
                 operations = operations + 1;
         }
         return operations;

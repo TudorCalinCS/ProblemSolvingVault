@@ -6,7 +6,7 @@ Given an integer array nums of length n where all the integers of nums are in th
 
 You must write an algorithm that runs in O(n) time and uses only constant extra space.
 
- 
+
 
 Example 1:
 
@@ -20,7 +20,7 @@ Example 3:
 
 Input: nums = [1]
 Output: []
- 
+
 
 Constraints:
 
@@ -48,4 +48,3 @@ public:
         return v;
     }
 };
-

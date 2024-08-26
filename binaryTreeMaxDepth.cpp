@@ -26,7 +26,7 @@ The number of nodes in the tree is in the range [0, 104].
 */
 struct TreeNode
 {
-    
+
     int val;
     TreeNode *left;
     TreeNode *right;

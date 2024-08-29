@@ -1,4 +1,4 @@
-package training.threads;
+package training.threads.runnable;
 
 public class MyRunnable implements Runnable {
     @Override

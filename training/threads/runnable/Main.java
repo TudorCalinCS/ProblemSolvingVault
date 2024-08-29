@@ -1,4 +1,4 @@
-package training.threads;
+package training.threads.runnable;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

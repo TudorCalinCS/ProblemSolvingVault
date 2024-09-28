@@ -8,16 +8,17 @@ public class Main {
         Thread t3 = new TransactionThread(bankAccount, TransactionType.Withdraw, 100);
         Thread t4 = new TransactionThread(bankAccount, TransactionType.Deposit, 500);
 
-        t1.start();
-        t2.start();
-        t3.start();
-        t4.start();
-
         try {
-            t1.join();
-            t2.join();
-            t3.join();
-            t4.join();
+        t1.start();t1.join();
+        t2.start();t2.join();
+        t3.start();t3.join();
+        t4.start();t4.join();
+
+        
+            
+            
+            
+            
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

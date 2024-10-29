@@ -17,5 +17,6 @@
         "stack": "cpp",
         "cstdlib": "cpp",
         "iterator": "cpp"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }

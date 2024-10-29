@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.threads.bank.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.OOP.zoo.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.OOP.library.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.OOP.payment.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.OOP.polymorphims.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.OOP.inheritance.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "training.OOP.Library.Main",
+            "projectName": "ProblemSolvingVault_310fd14b"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "test",

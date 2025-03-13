@@ -11,13 +11,15 @@
 *.exe
 .jsbasics/
 jsbasics
+/applicats
 # User-specific files
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-
+applicantsProcessor/
+training/
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
